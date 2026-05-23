@@ -140,7 +140,7 @@ function VariationB() {
           </div>
 
           <div className="vb-portrait">
-            <Stripe ratio="1 / 1" label="portrait · 1:1" palette={palette} hue={30} />
+            <img className="vb-profile-img" src="55861844.jpg" alt="Raphael Benzecry" style={{ aspectRatio: '1 / 1', width: '100%', objectFit: 'cover', objectPosition: 'center top', border: `1px solid ${palette.rule}` }} />
             <div className="vb-portrait-tags">
               <span>#available</span>
               <span>#remote-friendly</span>
@@ -239,7 +239,7 @@ function VariationB() {
             <p>{t('aboutP2')}</p>
           </div>
           <div className="vb-about-side">
-            <Stripe ratio="3 / 4" label="aside · portrait" palette={palette} hue={45} />
+            <img className="vb-profile-img" src="55861844.jpg" alt="Raphael Benzecry" style={{ aspectRatio: '3 / 4', width: '100%', objectFit: 'cover', objectPosition: 'center top', border: `1px solid ${palette.rule}` }} />
             <div className="vb-about-facts">
               <div><span>NOW</span><span>{lang === 'pt' ? '@ PicPay · módulo Business Cards' : '@ PicPay · Business Cards module'}</span></div>
               <div><span>FAV</span><span>Muay Thai · KMP · SwiftUI</span></div>
